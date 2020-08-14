@@ -5,5 +5,6 @@ class Teacher < User
 def teach 
   KNOWLEDGE.sample do |random|
     random
-  
+  end 
+end   
 end
